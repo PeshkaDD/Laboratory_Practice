@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccqP3QCU.s 			page 1
+ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccfGdd8D.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,30 +27,34 @@ ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccqP3QCU.s 			page 1
   24              		.thumb
   25              		.thumb_func
   27              	main:
-  28              	.LFB0:
-   1:Core/Src/main.c **** int main(void){
-  29              		.loc 1 1 15 view -0
+  28              	.LFB130:
+   1:Core/Src/main.c **** #include "init.h"
+   2:Core/Src/main.c **** int main(void){
+  29              		.loc 1 2 15 view -0
   30              		.cfi_startproc
   31              		@ Volatile: function does not return.
   32              		@ args = 0, pretend = 0, frame = 0
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   34              		@ link register save eliminated.
   35              	.L2:
-   2:Core/Src/main.c **** while(1){}
-  36              		.loc 1 2 1 view .LVU1
-  37              		.loc 1 2 10 view .LVU2
-  38              		.loc 1 2 6 view .LVU3
+   3:Core/Src/main.c **** while(1){
+  36              		.loc 1 3 1 view .LVU1
+   4:Core/Src/main.c **** 
+   5:Core/Src/main.c **** }
+  37              		.loc 1 5 1 view .LVU2
+   3:Core/Src/main.c **** while(1){
+  38              		.loc 1 3 6 view .LVU3
   39 0000 FEE7     		b	.L2
   40              		.cfi_endproc
-  41              	.LFE0:
+  41              	.LFE130:
   43              		.text
   44              	.Letext0:
-ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccqP3QCU.s 			page 2
+ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccfGdd8D.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\ihilo\AppData\Local\Temp\ccqP3QCU.s:21     .text.main:00000000 $t
-C:\Users\ihilo\AppData\Local\Temp\ccqP3QCU.s:27     .text.main:00000000 main
+C:\Users\ihilo\AppData\Local\Temp\ccfGdd8D.s:21     .text.main:00000000 $t
+C:\Users\ihilo\AppData\Local\Temp\ccfGdd8D.s:27     .text.main:00000000 main
 
 NO UNDEFINED SYMBOLS

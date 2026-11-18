@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccGND7r3.s 			page 1
+ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -20,11 +20,94 @@ ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccGND7r3.s 			page 1
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
   19              		.file 1 "Core/Src/init.c"
-  20              	.Letext0:
-ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccGND7r3.s 			page 2
+  20              		.section	.text._GPIO_Config_Memory,"ax",%progbits
+  21              		.align	1
+  22              		.global	_GPIO_Config_Memory
+  23              		.syntax unified
+  24              		.thumb
+  25              		.thumb_func
+  27              	_GPIO_Config_Memory:
+  28              	.LFB130:
+   1:Core/Src/init.c **** #include "init.h"
+   2:Core/Src/init.c **** /**
+   3:Core/Src/init.c ****  * @breif Hello
+   4:Core/Src/init.c ****  */
+   5:Core/Src/init.c **** void _GPIO_Config_Memory(void){
+  29              		.loc 1 5 31 view -0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+   6:Core/Src/init.c **** 
+   7:Core/Src/init.c **** 
+   8:Core/Src/init.c **** }
+  34              		.loc 1 8 1 view .LVU1
+  35 0000 7047     		bx	lr
+  36              		.cfi_endproc
+  37              	.LFE130:
+  39              		.section	.text._GPIO_Config_Def,"ax",%progbits
+  40              		.align	1
+  41              		.global	_GPIO_Config_Def
+  42              		.syntax unified
+  43              		.thumb
+  44              		.thumb_func
+  46              	_GPIO_Config_Def:
+  47              	.LFB131:
+   9:Core/Src/init.c **** /**
+  10:Core/Src/init.c ****  * @breif Hello
+  11:Core/Src/init.c ****  */
+  12:Core/Src/init.c **** void _GPIO_Config_Def(void){
+  48              		.loc 1 12 28 view -0
+ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s 			page 2
+
+
+  49              		.cfi_startproc
+  50              		@ args = 0, pretend = 0, frame = 0
+  51              		@ frame_needed = 0, uses_anonymous_args = 0
+  52              		@ link register save eliminated.
+  13:Core/Src/init.c **** 
+  14:Core/Src/init.c **** 
+  15:Core/Src/init.c **** }
+  53              		.loc 1 15 1 view .LVU3
+  54 0000 7047     		bx	lr
+  55              		.cfi_endproc
+  56              	.LFE131:
+  58              		.section	.text._GPIO_Config_CMSIS,"ax",%progbits
+  59              		.align	1
+  60              		.global	_GPIO_Config_CMSIS
+  61              		.syntax unified
+  62              		.thumb
+  63              		.thumb_func
+  65              	_GPIO_Config_CMSIS:
+  66              	.LFB132:
+  16:Core/Src/init.c **** /**
+  17:Core/Src/init.c ****  * @breif Hello
+  18:Core/Src/init.c ****  */
+  19:Core/Src/init.c **** void _GPIO_Config_CMSIS(void){
+  67              		.loc 1 19 30 view -0
+  68              		.cfi_startproc
+  69              		@ args = 0, pretend = 0, frame = 0
+  70              		@ frame_needed = 0, uses_anonymous_args = 0
+  71              		@ link register save eliminated.
+  20:Core/Src/init.c **** 
+  21:Core/Src/init.c **** 
+  22:Core/Src/init.c **** }
+  72              		.loc 1 22 1 view .LVU5
+  73 0000 7047     		bx	lr
+  74              		.cfi_endproc
+  75              	.LFE132:
+  77              		.text
+  78              	.Letext0:
+ARM GAS  C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 init.c
+C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s:21     .text._GPIO_Config_Memory:00000000 $t
+C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s:27     .text._GPIO_Config_Memory:00000000 _GPIO_Config_Memory
+C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s:40     .text._GPIO_Config_Def:00000000 $t
+C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s:46     .text._GPIO_Config_Def:00000000 _GPIO_Config_Def
+C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s:59     .text._GPIO_Config_CMSIS:00000000 $t
+C:\Users\ihilo\AppData\Local\Temp\ccNXoJdM.s:65     .text._GPIO_Config_CMSIS:00000000 _GPIO_Config_CMSIS
 
 NO UNDEFINED SYMBOLS
